@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a user management system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+    
+  },
+  "author": "Rahul P",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.0",
+    "nodemon": "^2.0.19"
+  }
+}
